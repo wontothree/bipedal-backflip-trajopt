@@ -1,1 +1,1 @@
-# humanoid-robotics
+# Humanoid Robotics
