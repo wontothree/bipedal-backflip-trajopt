@@ -1,0 +1,15 @@
+{
+  "name": "Bipedal Backflip Trajectory Optimization",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "mounts": [
+    "source=${localWorkspaceFolder}/robots/simple_humanoid,target=/usr/local/share/example-robot-data/robots/simple_humanoid,type=bind"
+  ],
+
+  "postCreateCommand": "echo 'Dev container ready!'",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  }
+}
