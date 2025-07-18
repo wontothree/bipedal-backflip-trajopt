@@ -1,4 +1,4 @@
-# Humanoid Robotics
+# Bipedal Backflip Trajectory Planner via Optimization
 
 `src/`
 
