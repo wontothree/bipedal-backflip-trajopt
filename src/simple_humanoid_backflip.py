@@ -5,7 +5,7 @@ import pinocchio
 import crocoddyl
 from backflip_util import *
 
-TIMESTEP = 0.005 # 0.01
+TIMESTEP = 0.007 # 0.01
 
 # Load the simple humanoid robot model
 simple_humanoid = example_robot_data.load("simple_humanoid")
